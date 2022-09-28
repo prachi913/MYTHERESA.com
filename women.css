@@ -155,7 +155,7 @@ body{
     font-family: Futura, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
     letter-spacing: 0.2px;
     font-size: 15px;
-    color: #9f2943!important;
+    color: #9f2943;
     line-height: normal;
     text-align: center;
     position: relative;
@@ -174,5 +174,79 @@ box-sizing: inherit;
 margin-left: 35px;
   
    }
+   #idd{
+    height:auto;
+    width: 95%;
+    border: 1px solid red;
+   background-color: rgb(243, 240, 240);
+   cursor: pointer;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-sizing: inherit;
+   }
+   #idd>h4{
+    margin-bottom: 10px;
+    letter-spacing: -.01em;
+    font-size: 17px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: rgb(7, 7, 7);
+    font-weight: 400;
+    margin-top: 0px;
+}
+        
+   
+
+   #idd>h1{
+    font-size: 34px;
+   margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
   
+  
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    color: #000;
+    font-weight: 0;
+}
+    
+
+
+   
+    #idd>h5{
+        font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 26px;
+    padding: 0 35px;
+    font-size: 15px;
+    color: rgb(8, 6, 6);
+    margin-top: 0;
+
+}
+
+    
+    #idd>button{
+      
+        color: white;
+        background-color: black;
+        font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    text-transform: uppercase;
+  
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+ 
+  
+ 
+
+    }
    
