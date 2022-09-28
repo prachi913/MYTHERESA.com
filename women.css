@@ -249,4 +249,148 @@ margin-left: 35px;
  
 
     }
+    .hh{
+        border: 1px solid red;
+        height: 120px;
+        width: 95%;
+        display: flex;
+        margin: auto;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .hh>div{
+        border: 1px solid black;
+        height: 100%;
+        width: 37%;
+        display: grid;
+        text-align: center;
+        margin: auto;
+
+    }
+    .hs1{
+        font-size: 17px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+    margin-top: 0;
+  
+ 
+
+    }
+    .ha1{
+        font-size: 36px;
+        max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    color: #000;
+    font-weight: 400;
+    margin-top: -10px
+  
+  
+}
+ .now{
+    height:auto;
+    width: 95%;
+    border: 1px solid black;
+    margin: auto;
+   
+    cursor: pointer;
+    margin-top: 40px;
+   column-gap: 30px;
+   justify-content: space-between;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+}
+.no{
+    border: 1px solid red;
+
+    
+  
+    
+    text-align: center;
+    
+    font-size: 14px;
+    letter-spacing: .8px;
+   
+}
+.no>img{
+    height:87%;
+    width:100%;
+    overflow: hidden;
+}
+.button{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color:black;
+    color: white;
+    padding: 10px 30px;
+    margin-top:40px;
+
+}
+.noo{
+    border: 1px solid red;
+   
+   
+   
+    text-align: center;
+    
+    font-size: 14px;
+    letter-spacing: .8px;
+    display: grid;
+    row-gap: 10px;
+    
+
+}
+.noo>.me{
+   
+height:450px;
+width: 100%;
+    border: 1px solid red;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+
+}
+.im{
+    height: 67%;
+    width: 100%;
+    overflow: hidden;
+}
+.text{
+    border: 1px solid black;
+    height: 120px;
+   
+   width:500px;
+   margin: auto;
+   margin-bottom: 50px;
+   margin-top: 30px;
+   text-align: center;
+   
+
+
+}
+.noo>.mee{
+    border: 1px solid red;
+    height: 450px;
+    width: 100%;
+
+}
+.hhh{
+    border: 1px solid red;
+    height: 120px;
+    width: 600px;
+    margin: auto;
+    margin-top: 55px;
+    text-align: center;
+}
+
+    
+
+
    
