@@ -1,0 +1,56 @@
+#footer-editorial{
+    max-width: 1180px;
+    padding: 20px 10px;
+    margin: 0 auto;
+
+    display: block;
+   
+     
+        font-size: 14px;
+        letter-spacing: .8px;
+        color: #000;
+        font-family: Arial,Helvetica,sans-serif;
+       
+}
+#footer-editorial p{
+    color: black;
+    visibility: visible;
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    letter-spacing: .8px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.app-badges{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    color: #000;
+    
+}
+
+
+
+
+.footer-app-badges{
+border-top: 1px solid #dfdfdf;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: .8px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+  
+    
+}
+
+

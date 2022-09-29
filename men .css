@@ -1,0 +1,175 @@
+.clas{
+    border: 1px solid red;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    cursor: pointer;
+
+}
+.clas>img{
+    overflow:hidden;
+   height: 400px;
+    width: 100%;
+}
+.d4{
+    border: 1px solid red;
+    display: grid;
+    height: 400px;
+    width: 95%;
+    cursor: pointer;
+  
+     grid-template-columns:repeat(4,1fr);
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+.d4>div{
+    border: 1px solid black;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+}
+.d4>div>img{
+    width: 100%;
+    overflow: hidden;
+    height:300PX ;
+}
+.product-button{
+    display: list-item;
+   
+color: #757575;
+    padding: 3px;
+    font-size: 15px;
+    text-align:left;
+    margin-bottom: 15px;
+     top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+   
+}
+
+.ph1{
+font-size: 14px;
+    letter-spacing: .75px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+  
+    text-transform: uppercase;
+    color: #000;
+   
+}
+
+.regular-price{
+font-weight:bolder;
+color: black;
+font-size: 18px;
+}
+.cl{
+   
+    padding-top: 20px;
+    letter-spacing: .4px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color:black;
+    font-weight: 400;
+    margin-top: 80px;
+   
+    cursor: pointer;
+}
+.view{
+    text-align: center;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 55px;
+    cursor: pointer;
+}
+.HW{
+    border: 1px solid red;
+    height: 550px;
+    width: 95%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    cursor: pointer;
+}
+.HW>.BIG{
+    border: 1px solid black;
+   
+   text-align: center;
+   background-color: black
+  
+  
+
+   
+}
+.BIG>div{
+   
+   
+   width:65%;
+    margin: auto;
+    text-align: left;
+   
+
+}
+p{
+    font-size: 18px;
+    display: block;
+    text-align: left;
+    font-family: Arial,Helvetica,sans-serif;
+  color: white;
+    letter-spacing: .4px;
+    line-height: 19px;
+   
+   
+    
+    
+}
+.big-teaser-text-title{
+    
+    margin-bottom: 20px;
+  
+    letter-spacing: -.8px;
+   
+    font-size: 60px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    display: block;
+    color: white;
+    cursor: pointer;
+}
+
+
+.HW>div>img{
+    width: 100%;
+    overflow: hidden;
+    height: 550PX;
+
+}
+.shop{
+    background-color:white;
+    color:black;
+    
+   
+    display: inline-block;
+    text-align: center;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 30px;
+}
+
+
