@@ -231,7 +231,7 @@ margin-left: 35px;
 }
 
     
-    #idd>button{
+    .midbutton{
       
         color: white;
         background-color: black;
@@ -333,6 +333,7 @@ margin-left: 35px;
     padding: 10px 30px;
     margin-top:40px;
 
+
 }
 .noo{
     border: 1px solid red;
@@ -390,6 +391,38 @@ width: 100%;
     text-align: center;
 }
 
+    #last{
+        border: 1px solid red;
+        height: 320px;
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 25px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .la>img{
+        height: 80%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .la>h4{
+        margin-top: 7px;
+    }
+
+
+    #midd{
+        width: 95%;
+        border: 1px solid red;
+         height: auto;
+         margin: auto;
+       
+         justify-content: center;
+         text-align: center;
+         margin-bottom: 100px;
+    }
+   
     
 
 
