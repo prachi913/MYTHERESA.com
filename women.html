@@ -9,6 +9,7 @@
   ></script>
     <title>Document</title>
     <link rel="stylesheet" href="women.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
    
     <style>
@@ -20,21 +21,27 @@
     <div id="parent">
         <div id="div1">
             <div><a href="women.html"> WOMEN</a></div>
-            <div> <a href="men.html">MEN</a></div>
-        <div>KIDS</div>
+            <div><a href="men.html">MEN</a></div>
+            <div><a href="kid.html">KIDS</a></div>
         <div>LIFE</div>
     </div>
     <div id="div2">
         <div>Signup for Newsletter</div>
         <div>My account </div>
-        <div>My wishlist  <i class="fa-thin fa-star"></i></div>
+        <div>
+           <span>My wishlist</span> 
+           <span class="grey-new"></span>
+        </div>
         <div>Morocco | English</div>
        
     </div>
     </div>
     <div id="mid">
     <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220906T141618" alt="">
-    <div>SHOPPING BAG </div>
+    <div>
+       <span>SHOPPING BAG </span> 
+       <span id="icon">0</span> 
+    </div>
    
 </div>
 <div id="d">
@@ -51,11 +58,19 @@
 
     </div>
     <div id="d2">
-        <input type="text" placeholder="search for..." >
-        <i class="fa-light fa-magnifying-glass"></i>
+      
+        <input type="text" placeholder="Search for...">
+        <span>
+            <span id="search"><i class="fa fa-search"></i></span>
+        </span>
+   
     </div>
-    <div><i class="fa-light fa-horizontal-rule"></i></div>
 </div>
+
+   
+<hr style="height:1px;border-width:0;color:rgb(221, 221, 221);background-color:rgb(201, 198, 198)">
+  
+
 <div id="p">
 <p style="display: block;">Get 10% off your first order when you spend over €600</p>
 
@@ -74,9 +89,9 @@
 
  
         <h4>DON'T MISS OUT</h4>
-        <h1>New Arrivals</h1>
-        <h5 >Bottega Veneta, Missoni, Rick Owens, Diane von Furstenberg...</h5>
-        <button class="midbutton">SHOP NOW  <i class="fa-light fa-angles-right"></i> </button>
+        <h1 class="ha1">New Arrivals</h1>
+        <h5 class="hs2">Stella McCartney, Moncler, Loewe, Oséree...</h5>
+        <button class="midbutton">SHOP NOW   <span class="arro">&#187;</span></button>
         
    
 </div>
@@ -94,12 +109,12 @@
     <div class="no">
        
         <img src="https://img.mytheresa.com/media/static/raw/cms/l/WW_HP_2022_CW39/ActboxTall-Bridal_2x_20220926130913.jpg?imwidth=600&imdensity=2" alt="">
-    <button class="button">SHOP NOW <i class="fa-light fa-angles-right"></i> </button>
+    <button class="button">SHOP NOW  <span class="arro">&#187;</span></button>
     </div>
     <div class="noo">
         <div class="me">
             <img  class="im" src="https://img.mytheresa.com/media/static/raw/cms/l/WW_HP_2022_CW39/CW39_ActboxSmall_2x__20220926130949.jpg?imwidth=600&imdensity=2" alt="">
-            <button class="button">SHOP NOW  <i class="fa-light fa-angles-right"></i></button>
+            <button class="button">SHOP NOW   <span class="arro">&#187;</span></button>
         </div>
         <div class="text">
             <h4 class="hs1 scaling">GEMS AND JEWELRY</h4>
@@ -108,7 +123,7 @@
         </div>
         <div class="mee">
             <img class="im" src="https://img.mytheresa.com/media/static/raw/cms/l/WW_HP_2022_CW39/CW39_ActboxSmall_2x_2_20220926130943.jpg?imwidth=600&imdensity=2" alt="">
-            <button class="button">SHOP NOW <i class="fa-light fa-angles-right"></i> </button>
+            <button class="button">SHOP NOW  <span class="arro">&#187;</span></button>
         </div>
     </div> 
 </div>
@@ -130,7 +145,7 @@
         <div class="me">
             <img  class="im" src="https://img.mytheresa.com/media/static/raw/cms/l/WW_HP_2022_CW39/CW39_ActboxSmall_2x_3_20220926130950.jpg?imwidth=600&imdensity=2" alt="">
            
-            <button class="button">SHOP NOW  <i class="fa-light fa-angles-right"></i></button>
+            <button class="button">SHOP NOW   <span class="arro">&#187;</span></button>
         </div>
         <div class="text">
             <h4 class="hs1 scaling">A (COLOR) POP OF NOSTALGIA</h4>
@@ -138,13 +153,15 @@
         </div>
         <div class="mee">
             <img class="im" src="https://img.mytheresa.com/media/static/raw/cms/l/WW_HP_2022_CW39/CW39_ActboxSmall_2x_4_20220926130949.jpg?imwidth=600&imdensity=2" alt="">
-            <button class="button">SHOP NOW <i class="fa-light fa-angles-right"></i> </button>
+            <button class="button">SHOP NOW  <span class="arro">&#187;</span></button>
         </div>
     </div> 
     <div class="no">
        
         <img src="https://img.mytheresa.com/media/static/raw/cms/l/WW_HP_2022_CW39/ActboxTall-WeddingG_2x_20220926130912.jpg?imwidth=600&imdensity=2" alt="">
-    <button class="button">SHOP NOW <i class="fa-light fa-angles-right"></i> </button>
+    <button class="button">SHOP NOW 
+        <span class="arro">&#187;</span>
+    </button>
     </div>
 </div>
 <div class="hhh" >
@@ -170,9 +187,14 @@
     </div>
 </div >
   <div id="midd">
-    <button id="midbutt" class="button">SHOP NOW <i class="fa-light fa-angles-right"></i> </button>
+    <button id="midbutt" class="button">SHOP NOW 
+        <span class="arro">&#187;</span>
+    </button>
 </div>
-<div style="color: blue;"><i class="fa-light fa-horizontal-rule"></i></div>
+<!-- here i have to make line -->
+<span>
+    <hr style="height:1px;border-width:0;color:rgb(221, 221, 221);background-color:rgb(201, 198, 198)">
+</span>
 
 <section id="footer-editorial">
     <h1>MYTHERESA  – Women’s luxury and designer fashion</h1>
