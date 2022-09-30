@@ -1,0 +1,187 @@
+.k{
+  border: 1px solid red;
+  height: 600px;
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 20px;
+  cursor: pointer;
+
+
+}
+.kk{
+    border: 1px soolid black;
+    position:relative;
+   
+
+
+}
+.kk>img{
+    width: 100%;
+    overflow: hidden;
+    height:600px;
+}
+
+.kkk{
+    border: 1px solid red;
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+
+
+}
+.kkk>h1{
+font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 53px;
+    letter-spacing: -.8px;
+    display: block;
+    margin: 10px 0 20px;
+    color:white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+   
+
+}
+.kkk>button{
+         padding: 10px 30px;
+      color: black;
+      background-color: white;
+    
+     border: 0px;
+}
+.ki{
+    border: 1px solid red;
+    width: 95%;
+    height:300px;
+    margin: auto;
+    
+    grid-template-columns: repeat(4,1fr);
+    position:relative;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.ki>img{
+    width: 100%;
+    overflow: hidden;
+  height: 300px;
+  
+}
+.kii{
+    border: 1px solid red;
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 60px;
+    left: 45%;
+
+    
+}
+.kii>h1{
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 53px;
+        letter-spacing: -.8px;
+        display: block;
+        margin: 10px 0 20px;
+        color:black;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 40px;
+       
+    
+    }
+    .kii>button{
+        padding: 10px 30px;
+     color:white;
+     background-color:black;
+   
+    border: 0px;
+}
+.ku{
+    border: 1px solid red;
+    width: 95%;
+    height:350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position:relative;
+    margin-top: 40px;
+    column-gap: 10px;
+    cursor: pointer;
+
+}
+.ku>div{
+    border: 1px solid red;
+    position:relative;
+
+
+}
+.ku>div>img{
+    width: 100%;
+    overflow: hidden;
+  height: 350px;
+  
+    
+}
+.kuu{
+    border: 1px solid red;
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 30px;
+   left: 23%;
+
+
+}
+.kuu>h1{
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-weight:500;
+        font-size: 31px;
+        text-transform: uppercase;
+    line-height: 1.2;
+      letter-spacing: .8px;
+        display: block;
+        margin: 10px 0 20px;
+        color:hwb(0 100% 0%);
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px;
+        }
+    .kuu>button{
+             padding: 10px 30px;
+          color: black;
+          background-color: white;
+        
+         border: 0px;
+    }
+    #kuu{
+        left: 34%;
+    }
+    #h11{
+        font-family: Futura,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .8px;
+    color: #000;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    }
