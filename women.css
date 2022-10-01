@@ -37,7 +37,7 @@ a{
     width:auto;
     height: 100%;
    
-  /* border: 1px solid red ; */
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@ a{
  
 }
 #mid{
-    border: 1px solid red;
+   
     display: flex;
     width: 95%;
     height: 45px;
@@ -125,7 +125,7 @@ a{
  margin-right: 380px
 }
 #mid>div{
-    border: 1px solid red;
+   
     height: 100%;
     width: auto;
     display: flex;
@@ -135,7 +135,7 @@ a{
 
 }
 #d{
-    border: 1px solid black;
+   
     height: 50px;
     width: 95%;
     margin: auto;
@@ -146,7 +146,7 @@ a{
 
 }
 #d>#d1{
-    border:1px solid red ;
+  
     height: 100%;
     width: auto;
      display: flex;
@@ -158,7 +158,7 @@ a{
    
 }
 #d>#d1>div{
-    border: 1px solid red;
+   
     height: 100%;
     width: auto;
     padding-left: 0px;
@@ -177,7 +177,7 @@ a{
 }
 
 #d>#d2{
-    border: 1px solid red;
+    
     
    
     height: 100%;
@@ -199,10 +199,7 @@ a{
    
    
 }
-#d>#d2>input[type=text]{
-   
-    float: left;
-}
+
 #search{
     position: absolute;
     text-align: center;
@@ -214,7 +211,7 @@ a{
 }
 
 #p{
-    border: 1px solid red;
+   
     height: 50px;
     width: 95%;
     margin: auto;
@@ -245,7 +242,7 @@ cursor: pointer;
    #idd{
     height:auto;
     width: 95%;
-    border: 1px solid red;
+   
    background-color: rgb(243, 240, 240);
    cursor: pointer;
   margin: auto;
@@ -325,7 +322,7 @@ cursor: pointer;
 
     }
     .hh{
-        border: 1px solid red;
+       
         height: 120px;
         width: 95%;
         display: flex;
@@ -334,7 +331,7 @@ cursor: pointer;
         margin-top: 50px;
     }
     .hh>div{
-        border: 1px solid black;
+       
         height: 100%;
         width: 37%;
         display: grid;
@@ -346,7 +343,7 @@ cursor: pointer;
         font-size: 17px;
     font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
     letter-spacing: .5px;
-    text-transform: uppercase;
+   
     color: #000;
     font-weight: 400;
     margin-top: 0;
@@ -370,7 +367,7 @@ cursor: pointer;
  .now{
     height:auto;
     width: 95%;
-    border: 1px solid black;
+   
     margin: auto;
    
     cursor: pointer;
@@ -384,7 +381,7 @@ cursor: pointer;
 
 }
 .no{
-    border: 1px solid red;
+    
 
     
   
@@ -413,7 +410,7 @@ cursor: pointer;
 
 }
 .noo{
-    border: 1px solid red;
+   
    
    
    
@@ -430,7 +427,7 @@ cursor: pointer;
    
 height:450px;
 width: 100%;
-    border: 1px solid red;
+   
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 
 
@@ -441,7 +438,7 @@ width: 100%;
     overflow: hidden;
 }
 .text{
-    border: 1px solid black;
+   
     height: 120px;
    
    width:500px;
@@ -455,13 +452,13 @@ width: 100%;
 
 }
 .noo>.mee{
-    border: 1px solid red;
+   
     height: 450px;
     width: 100%;
 
 }
 .hhh{
-    border: 1px solid red;
+   
     height: 120px;
     width: 600px;
     margin: auto;
@@ -471,7 +468,7 @@ width: 100%;
 }
 
     #last{
-        border: 1px solid red;
+       
         height: 320px;
         width: 95%;
         margin: auto;
@@ -494,13 +491,13 @@ width: 100%;
 
     #midd{
         width: 95%;
-        border: 1px solid red;
+       
          height: auto;
          margin: auto;
        
          justify-content: center;
          text-align: center;
-         margin-bottom: 100px;
+         margin-bottom: 80px;
        
     }
    

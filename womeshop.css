@@ -1,0 +1,33 @@
+.wk{
+   
+    height: 30px;
+    width: 95%;
+    display: flex;
+    margin: auto;
+}
+.wk>div{
+  
+   height: 100%;
+   width:width;
+   margin: auto;
+   padding-top: 20px;
+   
+  
+    
+}
+.wk>div>span{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    color: #9f2943;
+    margin-bottom: 0px;
+    font-family: Futura,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    
+   
+   
+}
+.wc::before{
+   background-image:url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 209.56 180'%3E%3Cg id='a'/%3E%3Cg id='b'%3E%3Cg id='c'%3E%3Cpath d='M208.83,59L171.06,1.95C170.25,.73,168.89,0,167.43,0h0l-62.31,.06L42.13,0c-1.47-.01-2.83,.73-3.63,1.95L.72,59c-1.08,1.64-.94,3.8,.36,5.27l100.15,114.25c.83,.94,2.02,1.48,3.27,1.48h0c1.25,0,2.44-.54,3.27-1.47l100.7-114.25c1.3-1.48,1.45-3.64,.36-5.28ZM40.98,13.96l16.22,42.86H12.6L40.98,13.96Zm98.04,51.57l-34.61,91.45-34.61-91.45h69.21Zm-67.17-8.71L104.78,12.03l32.92,44.8H71.85ZM113.18,8.76l47.35-.04-16.1,42.55L113.18,8.76Zm-48.52,43.16L48.31,8.71l48.07,.05-31.72,43.16Zm-4.16,13.62l35.5,93.81L13.77,65.53H60.5Zm87.83,0h47.42l-83.1,94.28,35.68-94.28Zm48.62-8.71h-45.33l16.48-43.56,28.84,43.56Z' style='fill:%239f2943; width:34px height:34px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  
+}
