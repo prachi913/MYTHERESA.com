@@ -1,7 +1,7 @@
 .clas{
-    border: 1px solid red;
+   
     width: 95%;
-    height: 400px;
+    height: 600px;
     margin: auto;
     cursor: pointer;
     position: relative;
@@ -9,22 +9,15 @@
 }
 .clas>img{
     overflow:hidden;
-   height: 400px;
+   height: 600px;
     width: 100%;
 }
 #kiio{
-    border: 1px solid red;
-   
     text-align: center;
     position: absolute;
-    bottom: 10%;
+    bottom: 32%;
     left: 36%;
-   
-}
- 
-    
-     
-
+   }
 #kiio>p{
     font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
     text-transform: uppercase;
@@ -44,7 +37,7 @@ margin-bottom: 40px;
     margin: 25px 0 35px;
     margin-top: 25px;
     margin-right: 0px;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
     margin-left: 0px;
     color: white;
     font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
@@ -52,7 +45,7 @@ margin-bottom: 40px;
 }
 .shopp{
     text-align: center;
-    padding: 7px 20px;
+    padding: 5px 25px;
     background-color: white;
     border-color: white;
    
@@ -76,7 +69,7 @@ margin-bottom: 40px;
     cursor: pointer;
 }
 .d4{
-    border: 1px solid red;
+   
     display: grid;
     height: 400px;
     width: 95%;
@@ -91,7 +84,7 @@ margin-bottom: 40px;
 
 }
 .d4>div{
-    border: 1px solid black;
+   
     display: grid;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 
@@ -168,7 +161,7 @@ margin-bottom: 50px;
 
 }
 .HW{
-    border: 1px solid red;
+   
     height: 550px;
     width: 95%;
     margin: auto;
@@ -177,7 +170,7 @@ margin-bottom: 50px;
     cursor: pointer;
 }
 .HW>.BIG{
-    border: 1px solid black;
+   
    
    text-align: center;
    background-color: black

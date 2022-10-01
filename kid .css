@@ -1,5 +1,5 @@
 .k{
-  border: 1px solid red;
+  
   height: 600px;
   width: 95%;
   margin: auto;
@@ -11,7 +11,7 @@
 
 }
 .kk{
-    border: 1px soolid black;
+  
     position:relative;
    
 
@@ -24,7 +24,7 @@
 }
 
 .kkk{
-    border: 1px solid red;
+    
     width: auto;
     height: auto;
     margin: auto;
@@ -59,7 +59,7 @@ font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
      border: 0px;
 }
 .ki{
-    border: 1px solid red;
+    
     width: 95%;
     height:300px;
     margin: auto;
@@ -68,6 +68,7 @@ font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
     position:relative;
     margin-top: 40px;
     cursor: pointer;
+    margin-bottom: 60px;
 }
 .ki>img{
     width: 100%;
@@ -76,7 +77,7 @@ font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
   
 }
 .kii{
-    border: 1px solid red;
+    
     width: auto;
     height: auto;
     margin: auto;
@@ -111,20 +112,20 @@ font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
     border: 0px;
 }
 .ku{
-    border: 1px solid red;
+    
     width: 95%;
     height:350px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     position:relative;
-    margin-top: 40px;
+    margin-top: 20px;
     column-gap: 10px;
     cursor: pointer;
 
 }
 .ku>div{
-    border: 1px solid red;
+    
     position:relative;
 
 
@@ -137,7 +138,7 @@ font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
     
 }
 .kuu{
-    border: 1px solid red;
+    
     width: auto;
     height: auto;
     margin: auto;
@@ -185,3 +186,69 @@ font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
     margin-bottom: 30px;
     cursor: pointer;
     }
+    .kimjon{
+        
+        height:300px;
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        column-gap: 20px;
+        cursor: pointer;
+
+    }
+    .kimjon>div{
+       
+        text-align: center;
+
+
+    }
+    .kimjon>div>img{
+        width: 100%;
+        overflow: hidden;
+        height: 250px;
+    }
+    #set1{
+        height: 35px;
+        width: 35px;
+        margin-left: 0px;
+        margin-top: 70%;
+        
+    }
+    #set1>img{
+         height: 35px;
+         width: 35px;
+         overflow: hidden;
+    }
+    #set2{
+        height: 35px;
+        width: 35px;
+       
+        margin-top: 70%;
+        margin-left: 80%;
+    }
+    #set2>img{
+         height: 35px;
+         width: 35px;
+         overflow: hidden;
+    }
+    #shopnow{
+        color: #FFFFFF!important;
+    background-color: #000000;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+    
