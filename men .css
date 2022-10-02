@@ -243,3 +243,75 @@ p{
 }
 
 
+@media all and (min-width: 451px) and (max-width: 750px) {
+    .clas{
+   
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        cursor: pointer;
+        position: relative;
+    
+    }
+    .HW{
+   
+        height: 550px;
+        width: 95%;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        cursor: pointer;
+    }
+    .d4{
+   
+        display: grid;
+        height: 400px;
+        width: 95%;
+        cursor: pointer;
+      
+         grid-template-columns:repeat(4,1fr);
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+        column-gap: 20px;
+    
+    
+    }
+}
+
+
+@media all and (min-width: 100px) and (max-width: 450px) {
+    .clas{
+   
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        cursor: pointer;
+        position: relative;
+    
+    }
+    .HW{
+   
+        height: 550px;
+        width: 95%;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        cursor: pointer;
+    }
+    .d4{
+   
+        display: grid;
+        height: 400px;
+        width: 95%;
+        cursor: pointer;
+      
+         grid-template-columns:repeat(4,1fr);
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+        column-gap: 20px;
+    
+    
+    }
+}

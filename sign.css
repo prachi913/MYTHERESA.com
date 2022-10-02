@@ -1,0 +1,30 @@
+
+#kooo{
+  
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.hs3{
+    font-size: 16px;
+    letter-spacing: .2px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#kooo>p{
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    line-height: 19px;
+    color: #757575;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-text-size-adjust: 100%;
+}
